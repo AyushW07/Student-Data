@@ -46,7 +46,7 @@ function StudentData() {
         <label htmlFor="age">
           Age:
           <input
-            type="text"
+            type="number"
             name="age"
             value={form.age}
             onChange={handleOnChange}
@@ -57,7 +57,7 @@ function StudentData() {
         <label htmlFor="grade">
           Grade:
           <input
-            type="text"
+            type="number"
             name="grade"
             value={form.grade}
             onChange={handleOnChange}
